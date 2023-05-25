@@ -1,0 +1,84 @@
+/* header section style */
+.header {
+  background-image: url(images/donation7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1500px 1500px;
+}
+.title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #fff;
+  width: 826px;
+  height: 158px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.sub-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  width: 691px;
+  height: 56px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.btn-primary {
+  width: 160px;
+  height: 56px;
+  background: #ff5959;
+  border-radius: 5px;
+  align-items: center;
+  color: #fff;
+  border: 0;
+}
+.header-btn {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 250px;
+}
+/* donate section style */
+
+.donate {
+  padding-top: 132px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+}
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #707070;
+  width: 691px;
+  height: 56px;
+  margin: 0 auto;
+}
+
+.taka-ammount-list {
+  display: flex;
+  gap: 47px;
+  justify-content: center;
+}
+.taka-ammount .taka-ammount-list li {
+  margin-top: 90px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+}
+
+.taka-ammount .taka-ammount-list .taka {
+  font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #FF5959;
+
+
+
+}
