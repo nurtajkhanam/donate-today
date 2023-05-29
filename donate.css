@@ -146,14 +146,12 @@
   gap: 100px;
   justify-content: center;
   padding-bottom: 200px;
-  
 }
 .donation-description {
   width: 482px;
   height: 374px;
   left: 706px;
   top: 2707px;
-  
 }
 .donation-title {
   font-weight: 700;
@@ -181,4 +179,66 @@
 }
 .d-btn {
   padding-top: 80px;
+}
+
+/* update section style */
+.update {
+  padding-bottom: 150px;
+}
+.subscribe-part {
+  width: 809px;
+  height: 150px;
+  left: 316px;
+  top: 3442px;
+  background: #fff4d6;
+  padding-top: 50px;
+  margin: 0 auto;
+  align-items: center;
+}
+.subscribe {
+  display: flex;
+  justify-content: center;
+}
+.email {
+  width: 275px;
+  height: 50px;
+  left: 505px;
+  top: 3518px;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+/* footer section */
+.footer {
+  left: 0%;
+  right: 0%;
+  top: 95.52%;
+  bottom: 0%;
+  background: #0b0d17;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+.humble-style {
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ff5959;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 24px;
+  margin: 0;
+}
+.humble-details {
+  text-align: center;
+  color:  #D9DBE1;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
 }
