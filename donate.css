@@ -3,7 +3,10 @@
   background-image: url(images/donation7.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1500px 1500px;
+  background-size: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
 }
 .title {
   font-weight: 700;
@@ -74,11 +77,108 @@
 
 .taka-ammount .taka-ammount-list .taka {
   font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-color: #FF5959;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #ff5959;
+}
+.end-line {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #b3b3b3;
+}
+.end-under-line {
+  width: 765px;
+  height: 0px;
+  left: 338px;
+  top: 1199.5px;
+  border: 1px solid #dadada;
+}
+.donate-btn {
+  text-align: center;
+  padding-bottom: 130px;
+}
 
+/* Donate plan styles */
+.donate-plan {
+  padding-bottom: 130px;
+}
+.donate-plan-details {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding-top: 50px;
+}
 
+.donate-plan-details-box {
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+}
+.details-box-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+.details-box-description {
+  color: #707070;
+}
+.details-box-1 {
+  background: rgba(79, 157, 166, 0.1);
+  padding: 63px 23px 54px 23px;
+}
+.details-box-2 {
+  background: rgba(255, 89, 89, 0.1);
+  padding: 63px 23px 54px 23px;
+}
+.details-box-3 {
+  background: #fff4d6;
+  padding: 63px 23px 54px 23px;
+}
 
+/* all about donation styles */
+.all-about-donation {
+  padding-top: 130px;
+  padding-bottom: 80px;
+}
+.donation {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding-bottom: 200px;
+  
+}
+.donation-description {
+  width: 482px;
+  height: 374px;
+  left: 706px;
+  top: 2707px;
+  
+}
+.donation-title {
+  font-weight: 700;
+  font-size: 45px;
+  width: 492px;
+  height: 108px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.donation-details,
+.part-1,
+.part-2 {
+  width: 481px;
+  height: 84px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  margin: 0;
+}
+.d-image {
+  width: 456px;
+  height: 477px;
+  left: 732px;
+  top: 2078px;
+}
+.d-btn {
+  padding-top: 80px;
 }
